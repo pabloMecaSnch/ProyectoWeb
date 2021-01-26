@@ -23,8 +23,8 @@ public interface UsuarioRepository extends JpaRepository<Usuario,Integer>{
   @Query("select u from Usuario u where u.nombre=?1 and u.password=?2" )
     public Usuario validar(String nombre, String password );
     
-    @Query("select u.tareaList from Usuario u where u.idusuario=?1")
+    /*@Query("select u.tareaList from Usuario u where u.id_Usuario=?1")
     public List<Tarea> verTareas(Integer id);
-    
+    */
  
 }

@@ -29,7 +29,7 @@ public class UsuarioService {
         
        
         try{
-              List<Tarea> tareas=usuRepository.verTareas(1);
+              //List<Tarea> tareas=usuRepository.verTareas(1);
         }
         catch(Exception e){
                 int x =1;
